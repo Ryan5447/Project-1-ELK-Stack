@@ -72,8 +72,7 @@ name: install Docker module
 name: download and launch elk
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-
-Screenshot 2022-05-24 135931.png
+Images/Screenshot 2022-05-24 135931.png
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
