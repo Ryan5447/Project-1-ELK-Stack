@@ -31,7 +31,6 @@ What does Filebeat watch for? File beat monitors for log files, collects log eve
 What does Metricbeat record? Metricbeatrecords metrics and statistic, and sends the output to programs such as Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name      | Function    | Ip Address | Operating System |
 |-----------|-------------|------------|------------------|
@@ -103,7 +102,7 @@ _ Answer the following questions to fill in the blanks:_
 etc/ansible/hosts include the ip address of the webservers and elk server.
 - Which URL do you navigate to in order to check that the ELK server is running?
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
 Open Gitbash and ssh in your jump box ssh azadmin@20.248.207.145
 
