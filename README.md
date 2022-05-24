@@ -87,7 +87,7 @@ We have installed the following Beats on these machines:
 These Beats allow us to collect the following information from each machine:
 - Filebeat: Monitors  log files and collects log events and then forwards them to Elasticsearch, or Logstash, or any other specified destination. The filebeat would   look at the log events and send them to the ELK-Stack VM.
 
--Metricbeat: Takes the metrics and statistics acollectred and sends them out to programs such as Elasticsearch or Logstash, or any other specified destination. The     metricbeat would look at the uptime of the system or the system logs.
+- Metricbeat: Takes the metrics and statistics acollectred and sends them out to programs such as Elasticsearch or Logstash, or any other specified destination. The   metricbeat would look at the uptime of the system or the system logs.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
