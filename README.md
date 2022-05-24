@@ -104,12 +104,26 @@ etc/ansible/hosts include the ip address of the webservers and elk server.
 - Which URL do you navigate to in order to check that the ELK server is running?
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+
 Open Gitbash and ssh in your jump box ssh azadmin@20.248.207.145
+
 Sudo docker ps
+
 Sudo docker start vigilant_kirch (vigilant_kirch is my container)
+
 Sudo docker attach vigilant_kirch
+
 Cd /etc/ansible to work under the ansible file
+
 Ssh-keygen to your webserver get the ssh_rsa.pub key in order to connect 
+
 Create a playbook file use nano playbook to make file and playbook
+
 Nano ansible.cfg add remote_user=azadmin to which server you want to see
+
 Run ansible-playbook myplaybook.yml (the playbook you created with nano) and run the file
+
+nano hosts
+![image](https://user-images.githubusercontent.com/99136446/170109028-d7f93e98-d453-4472-b3a3-5084f2696100.png)
+
+nano config
