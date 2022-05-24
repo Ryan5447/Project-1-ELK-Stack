@@ -127,3 +127,5 @@ nano hosts
 ![image](https://user-images.githubusercontent.com/99136446/170109028-d7f93e98-d453-4472-b3a3-5084f2696100.png)
 
 nano config
+![image](https://user-images.githubusercontent.com/99136446/170109220-baee87b8-2799-47af-905e-0caebff7b8cb.png)
+
