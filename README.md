@@ -1,5 +1,6 @@
 # Cybersecurity
 Project 1 Elk stack
+![image](https://user-images.githubusercontent.com/99136446/170107907-872a89bf-6816-4ea9-9e05-c2c9dd9366cd.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
