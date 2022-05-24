@@ -4,9 +4,7 @@ Project 1 Elk stack
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-  - Elkinstall.yml
-
-This document contains the following details:
+ This document contains the following details:
 - Description of the Topologu
 - Access Policies
 - ELK Configuration
@@ -40,14 +38,18 @@ The configuration details of each machine may be found below.
 | Web 3     | Web Service | 10.0.0.8   | Linux            |
 | Elk-Stack | Monitoring  | 10.1.0.4   | Linux            |
 
+Access Policies
+
 The Virtual Machines on the internal network are not exposed to the public internet. 
 
 Only the Jump box machince can accept connections from the internet. Access to this machine is only allowed from the following IP addresses:
 
-
 Machines within the network can only be accessed by jump box provisioner. 
+
 Which machine did you allow to access your ELK VM? jump box provisioner 
+
 What was its IP address? 10.1.0.4
+
 A summary of the access policies in place can be found in the table below.
 
 | Name          | Publicly Accessible | Allowed Ip Address      |
@@ -83,9 +85,9 @@ Web-3 10.0.0.8
 We have installed the following Beats on these machines:
 - Filebeat and Metricbeat
 These Beats allow us to collect the following information from each machine:
-- Filebeat: Monitors  log files and collects log events and then forwards them to Elasticsearch, or Logstash, or any other specified destination. The filebeat would look at the log events and send them to the ELK-Stack VM.
+- Filebeat: Monitors  log files and collects log events and then forwards them to Elasticsearch, or Logstash, or any other specified destination. The filebeat would   look at the log events and send them to the ELK-Stack VM.
 
-  Metricbeat: Takes the metrics and statistics acollectred and sends them out to programs such as Elasticsearch or Logstash, or any other specified destination. The metricbeat would look at the uptime of the system or the system logs.
+-Metricbeat: Takes the metrics and statistics acollectred and sends them out to programs such as Elasticsearch or Logstash, or any other specified destination. The     metricbeat would look at the uptime of the system or the system logs.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
@@ -98,8 +100,8 @@ SSH into the control node and follow the steps below:
 
 _ Answer the following questions to fill in the blanks:_
 - Which file is the playbook? Where do you copy it? Update the /etc.ansible/hosts file to include the ip address of the webservers and the elk-stac
-- Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
-etc/ansible/hosts include the ip address of the webservers and elk server.
+- Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to         install Filebeat on?
+  etc/ansible/hosts include the ip address of the webservers and elk server.
 - Which URL do you navigate to in order to check that the ELK server is running?
 
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
